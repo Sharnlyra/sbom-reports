@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SBOM Summary Report - Sharnlyra/achilles</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    color: #1a1a1a;
+    line-height: 1.55;
+  }
+  h1 { border-bottom: 3px solid #2563eb; padding-bottom: 0.4rem; }
+  h2 { margin-top: 2.2rem; border-bottom: 1px solid #d1d5db; padding-bottom: 0.3rem; color: #1e3a8a; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.92rem; }
+  th, td { border: 1px solid #d1d5db; padding: 0.45rem 0.6rem; text-align: left; vertical-align: top; }
+  th { background: #f3f4f6; }
+  tr:nth-child(even) { background: #fafafa; }
+  code { background: #f3f4f6; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.9em; }
+  .meta { color: #4b5563; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .meta strong { color: #111827; }
+  ul { margin: 0.4rem 0; }
+</style>
+</head>
+<body>
+<h1>SBOM Summary Report</h1>
+<ul>
+<li><strong>Repository:</strong> Sharnlyra/achilles</li>
+<li><strong>Ref:</strong> main</li>
+<li><strong>Commit:</strong> f08f03fbcb4c2519a9f0ee9dcf6a9197fd2915af</li>
+<li><strong>Generated:</strong> 2026-07-15 12:44:38 UTC</li>
+</ul>
+<hr />
+<h2>Executive Summary</h2>
+<p>A SCANOSS scan was run against the <code>Sharnlyra/achilles</code> repository (ref <code>main</code>, commit <code>f08f03f</code>), covering 3 files. None of these files matched any known open-source components, snippets, or dependencies in the SCANOSS knowledge base. As a result, there is no license, vulnerability, or component data to report for this scan run — this is a "clean/no-match" result rather than an indication of any problem.</p>
+<h2>Risk Highlights</h2>
+<ul>
+<li><strong>Copyleft licenses:</strong> None flagged — <code>flagged_copyleft_components</code> is empty.</li>
+<li><strong>Vulnerable components:</strong> None identified — but see the Vulnerabilities section, as vulnerability data collection was not enabled for this scan.</li>
+<li><strong>Unknown-risk licenses:</strong> <code>risk_counts</code> is empty, so there are no components with unclassified license risk to review.</li>
+<li>Overall, there is nothing in this scan that requires immediate human review, primarily because no components were detected at all.</li>
+</ul>
+<h2>Scan Coverage</h2>
+<ul>
+<li>Total files scanned: 3</li>
+<li>Matched files: 0</li>
+<li>Unmatched files: 3</li>
+<li>Unique components identified: 0</li>
+<li>Unique dependency components identified: 0</li>
+<li>Snippet matches found: 0</li>
+</ul>
+<h2>License Breakdown</h2>
+<p>No license data available — <code>license_breakdown</code> is empty, as no components were matched in this scan.</p>
+<h2>Third-Party Components</h2>
+<p>No components were identified in this scan (<code>components</code> is empty). There is no table to display.</p>
+<h2>Dependencies</h2>
+<p>No dependency components were identified in this scan (<code>dependency_components</code> is empty). There is no table to display.</p>
+<h2>Vulnerabilities</h2>
+<p>Vulnerability data was <strong>not collected</strong> as part of this scan run (<code>vulnerability_data_present: false</code>). This means the absence of vulnerability findings should <strong>not</strong> be interpreted as "no vulnerabilities exist" — it simply reflects that vulnerability scanning was not active for this run. To enable vulnerability detection, integrate a Dependency Track instance or use a premium SCANOSS API tier that supports vulnerability lookups.</p>
+<h2>Snippet Matches</h2>
+<p>No snippet-level matches were found (<code>snippet_matches</code> is empty, <code>snippet_matches_total: 0</code>). This is consistent with the overall result of 0 matched files.</p>
+<h2>Recommendations</h2>
+<ol>
+<li><strong>Verify scan scope:</strong> Confirm that the 3 scanned files represent the intended/complete codebase for this repository — a very small file count with zero matches may indicate the scan target was limited (e.g., only a subset of the repo, or mostly non-code files such as config/docs).</li>
+<li><strong>Re-run with broader coverage:</strong> If the repository contains more source files than the 3 scanned, check the scan configuration (include/exclude patterns, ignored directories) to ensure nothing was inadvertently excluded.</li>
+<li><strong>Enable vulnerability scanning:</strong> Integrate Dependency Track or upgrade to a SCANOSS tier with vulnerability data support so future scans can surface known CVEs in any third-party code that is present.</li>
+<li><strong>Periodic re-scan:</strong> Since no components/licenses were detected, treat this as a baseline result. Re-scan after any significant code changes or dependency additions to catch newly introduced third-party code.</li>
+<li><strong>Manual spot-check:</strong> Given the low file count, consider a manual review of the repository to confirm it does not, in fact, contain vendored or copied open-source code that fell outside SCANOSS's matching capability (e.g., heavily modified snippets).</li>
+</ol>
+</body>
+</html>
