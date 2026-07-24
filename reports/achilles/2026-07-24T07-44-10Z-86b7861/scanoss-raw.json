@@ -1,0 +1,38 @@
+{
+  "SampleCodebase.zip": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.07.19",
+          "monthly": "26.07"
+        },
+        "version": "5.4.25"
+      }
+    }
+  ],
+  "client-encryption-java 1.zip": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.07.19",
+          "monthly": "26.07"
+        },
+        "version": "5.4.25"
+      }
+    }
+  ],
+  "scripts/generate_sbom_summary.py": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.07.19",
+          "monthly": "26.07"
+        },
+        "version": "5.4.25"
+      }
+    }
+  ]
+}
